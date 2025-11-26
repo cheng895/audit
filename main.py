@@ -12,11 +12,14 @@ def define_env(env):
 
     def find_projects(client_dir: Path) -> dict[str, list[Path]]:
         projects: dict[str, list[Path]] = {}
-        # 仅把客户目录的直接子目录当作“项目”
-        for d in sorted([p for p in client_dir.iterdir() if p.is_dir()], key=lambda x: x.name.lower()):
-            files = list_reports(d)  # 只列该项目目录下的文件，不递归
-            projects[d.name] = sorted(files, key=lambda x: x.name)
-        # 如客户根目录直接有报告，也作为一个项目（项目名同客户名）
+        # 叶子目录内若包含报告文件，则视为一个项目
+        for d in sorted(client_dir.rglob("*")):
+            if not d.is_dir():
+                continue
+            files = list_reports(d)
+            if files:
+                projects[d.name] = sorted(files, key=lambda x: x.name)
+        # 客户根目录自身若有文件，也作为一个项目，项目名=目录名
         root_files = list_reports(client_dir)
         if root_files:
             projects[client_dir.name] = sorted(root_files, key=lambda x: x.name)
@@ -30,24 +33,26 @@ def define_env(env):
         parts: list[str] = []
         for client_dir in sorted([p for p in root.iterdir() if p.is_dir()], key=lambda x: x.name.lower()):
             client = client_dir.name
+            parts.append('<section class="client-block">')
             parts.append(f"<h2>{client}</h2>")
             projects = find_projects(client_dir)
             if not projects:
                 parts.append("<p>暂无项目或报告。</p>")
-                continue
-            for project_name in sorted(projects.keys(), key=lambda x: x.lower()):
-                parts.append(f"<h3>{project_name}</h3>")
-                files = projects[project_name]
-                if not files:
-                    parts.append("<p>暂无报告。</p>")
-                else:
-                    parts.append("<ul>")
-                    for f in files:
-                        rel = f.as_posix()
-                        url = f"{REPO_BASE_URL}/{quote(rel, safe='/')}"
-                        display = f.name
-                        parts.append(f"  <li><a href=\"{url}\">{display}</a></li>")
-                    parts.append("</ul>")
+            else:
+                for project_name in sorted(projects.keys(), key=lambda x: x.lower()):
+                    parts.append(f"<h3 class=\"project-title\">{project_name}</h3>")
+                    files = projects[project_name]
+                    if not files:
+                        parts.append("<p>暂无报告。</p>")
+                    else:
+                        parts.append("<ul>")
+                        for f in files:
+                            rel = f.as_posix()
+                            url = f"{REPO_BASE_URL}/{quote(rel, safe='/')}"
+                            display = f.name
+                            parts.append(f"  <li><a href=\"{url}\">{display}</a></li>")
+                        parts.append("</ul>")
+            parts.append('</section>')
         return "\n".join(parts)
 
     @env.macro

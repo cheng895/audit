@@ -1,0 +1,21 @@
+/* 仅主页目录区域生效 */
+#catalog { display: grid; gap: 1rem; }
+#catalog .client-block {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
+}
+#catalog h2 { /* 客户名 */
+  color: var(--md-primary-fg-color);
+  margin: 0 0 .25rem 0;
+}
+#catalog h3 { /* 项目名 */
+  color: var(--md-accent-fg-color);
+  margin: .5rem 0 .25rem;
+}
+#catalog ul { margin: .25rem 0 0; }
+#catalog li { margin: .125rem 0; }
+#catalog a { text-decoration: none; }
+#catalog a:hover { text-decoration: underline; }
