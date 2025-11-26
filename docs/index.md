@@ -1,22 +1,5 @@
-# 客户专辑
+# 客户 → 项目 → 报告清单
 
-## Jupiter Swap
-- [Offside Labs: October 2025](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Swap) (v6)
-- [Offside Labs: April 2024](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Swap) (v6)
-- [Sec3](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Swap) (v3)
+{{ render_catalog() | safe }}
 
-## Jupiter Perpetuals
-- [Offside Labs](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Perpetuals)
-- [OtterSec](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Perpetuals)
-- [Sec3](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Perpetuals)
-
-## Jupiter Lend
-- [OtterSec Report: August 20 - November 1, 2025](https://github.com/cheng895/audit/tree/main/clients/jupiter/aggregator/Lend)
-
----
-
-## Meteora — Dynamic Bonding Curve
-- [报告目录](https://github.com/cheng895/audit/tree/main/clients/Meteora/Dynamic%20Bonding%20Curve)
-
-## Kamino
-- [报告目录](https://github.com/cheng895/audit/tree/main/clients/kamino)
+> 提示：把报告文件放入 `clients/<客户>/<项目>/`（或更深的子目录）。页面会自动按“客户/项目”分组并列出该目录中的文件。

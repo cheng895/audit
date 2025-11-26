@@ -13,6 +13,7 @@ nav:
 
 plugins:
   - search
+  - macros
 
 markdown_extensions:
   - admonition
