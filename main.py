@@ -12,14 +12,11 @@ def define_env(env):
 
     def find_projects(client_dir: Path) -> dict[str, list[Path]]:
         projects: dict[str, list[Path]] = {}
-        # 规则：叶子目录中若包含报告文件，则将该叶子目录视作一个“项目”
-        for d in sorted(client_dir.rglob("*")):
-            if not d.is_dir():
-                continue
-            files = list_reports(d)
-            if files:
-                projects[d.name] = sorted(files, key=lambda x: x.name)
-        # 如果客户目录本身含有报告文件，也当作一个项目（项目名同客户名）
+        # 仅把客户目录的直接子目录当作“项目”
+        for d in sorted([p for p in client_dir.iterdir() if p.is_dir()], key=lambda x: x.name.lower()):
+            files = list_reports(d)  # 只列该项目目录下的文件，不递归
+            projects[d.name] = sorted(files, key=lambda x: x.name)
+        # 如客户根目录直接有报告，也作为一个项目（项目名同客户名）
         root_files = list_reports(client_dir)
         if root_files:
             projects[client_dir.name] = sorted(root_files, key=lambda x: x.name)
