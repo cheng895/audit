@@ -1,0 +1,20 @@
+site_name: Audit Reports
+site_url: https://cheng895.github.io/audit/
+repo_url: https://github.com/cheng895/audit
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+
+nav:
+  - 首页: index.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
