@@ -19,3 +19,17 @@
 #catalog li { margin: .125rem 0; }
 #catalog a { text-decoration: none; }
 #catalog a:hover { text-decoration: underline; }
+
+.client-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+.client-card {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 12px; border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px; text-decoration: none;
+}
+.client-card img { height: 40px; width: auto; }
+.client-card span { font-weight: 600; }
+.client-card small { color: var(--md-default-fg-color--light); }
