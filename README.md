@@ -14,29 +14,35 @@ This repository contains security audit reports conducted by our team. These rep
 
 ### Featured Clients
 
-<div class="client-grid">
-  <a href="#jupiter" class="client-card">
-    <img src="docs/assets/logos/jupiter.svg" alt="Jupiter logo" />
-    <span>Jupiter <small>(2)</small></span>
-  </a>
-  <a href="#meteora" class="client-card">
-    <img src="docs/assets/logos/meteora.svg" alt="Meteora logo" />
-    <span>Meteora <small>(1)</small></span>
-  </a>
-  <a href="#kamino" class="client-card">
-    <img src="docs/assets/logos/kamino.svg" alt="Kamino logo" />
-    <span>Kamino <small>(0)</small></span>
-  </a>
-  <a href="#jito" class="client-card">
-    <img src="docs/assets/logos/jito.svg" alt="Jito logo" />
-    <span>Jito <small>(0)</small></span>
-  </a>
-  <!-- Add logo files under audit/docs/assets/logos/ if using MkDocs site -->
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <a href="#meteora" title="Meteora">
+        <img alt="Meteora reports" src="https://img.shields.io/badge/Meteora-1%20reports-0B1221?style=for-the-badge&labelColor=111827&color=0ea5e9" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="#jupiter" title="Jupiter">
+        <img alt="Jupiter reports" src="https://img.shields.io/badge/Jupiter-2%20reports-0B1221?style=for-the-badge&labelColor=111827&color=f59e0b" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="#kamino" title="Kamino">
+        <img alt="Kamino reports" src="https://img.shields.io/badge/Kamino-0%20reports-0B1221?style=for-the-badge&labelColor=111827&color=10b981" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="#jito" title="Jito">
+        <img alt="Jito reports" src="https://img.shields.io/badge/Jito-0%20reports-0B1221?style=for-the-badge&labelColor=111827&color=8b5cf6" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-[See all audits →](audit/clients/)
+<p align="right"><a href="#all-audits">See all audits →</a></p>
 
 ### Clients Index
+<a id="all-audits"></a>
 - [Drift](#drift)
 - [Jupiter](#jupiter)
 - [Kamino](#kamino)
