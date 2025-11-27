@@ -1,162 +1,69 @@
-## Public Audit Reports
+<details id="jito">
 
-Welcome to the Public Audit Reports repository maintained by Offside Labs. This repository serves as a public archive where we share selected security audit reports for various blockchain and web3 projects. Our goal is to enhance the security and transparency of the web3 ecosystem.
+<summary><img src="audit/assets/logos/Jito.png" alt="Jito" height="40" style="vertical-align:middle;margin-right:8px;"><strong>Jito</strong></summary>
 
-## About This Repository
+- [Restaking Vault — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Jito-RestakingVault-Nov-2024-OffsideLabs.pdf)
+- [Stake Deposit Interceptor — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Jito-StakeDepositInterceptor-Nov-2024-OffsideLabs.pdf)
+- [Tip Router — Jan 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Jito-TipRouter-Jan-2025-OffsideLabs.pdf)
 
-This repository contains security audit reports conducted by our team. These reports provide insights into the security practices of various projects within the blockchain space, highlight potential vulnerabilities, and suggest improvements.
-
-## Repository Structure
-
-`audit/`: This directory contains all the published audit reports, organized by client and project.
-
-## Report Directory
-
-### Featured Clients
-
-<p align="center">
-  <a href="#meteora" title="Meteora" style="text-decoration:none;">
-    <img src="assets/logos/meteora.png" alt="Meteora logo" height="44"><br/>
-    <strong>Meteora</strong> <small>(1)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#jupiter" title="Jupiter" style="text-decoration:none;">
-    <img src="assets/logos/jupiter.svg" alt="Jupiter logo" height="44"><br/>
-    <strong>Jupiter</strong> <small>(2)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#kamino" title="Kamino" style="text-decoration:none;">
-    <img src="assets/logos/kamino.png" alt="Kamino logo" height="44"><br/>
-    <strong>Kamino</strong> <small>(0)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#jito" title="Jito" style="text-decoration:none;">
-    <img src="assets/logos/jito.png" alt="Jito logo" height="44"><br/>
-    <strong>Jito</strong> <small>(0)</small>
-  </a>
-</p>
-
-<p align="right"><a href="#all-audits">See all audits →</a></p>
-
-### Clients Index
-<a id="all-audits"></a>
-- [Drift](#drift)
-- [Jupiter](#jupiter)
-- [Kamino](#kamino)
-- [Mango](#mango)
-- [Marinade](#marinade)
-- [Marginfi](#marginfi)
-- [Meteora](#meteora)
-- [Orca](#orca)
-- [Raydium](#raydium)
-- [Solend](#solend)
-
-<a id="drift"></a>
-<details id="drift">
-<summary><strong>Drift</strong></summary>
-
-#### Perpetuals
-- [Offside Labs: Jan 2025](audit/clients/Drift/Perpetuals/2025/Drift-Perpetuals-2025-01-OffsideLabs.pdf)
-- [OtterSec: Aug 2024](audit/clients/Drift/Perpetuals/2024/Drift-Perpetuals-2024-08-OtterSec.pdf)
-
-#### Spot Margin
-- [Offside Labs: Mar 2024](audit/clients/Drift/SpotMargin/2024/Drift-SpotMargin-2024-03-OffsideLabs.pdf)
 </details>
 
 <details id="jupiter">
-<summary><strong>Jupiter</strong></summary>
 
-#### Aggregator
-- [Offside Labs: April 2024](audit/clients/Jupiter/Jupiter/Aggregator/Jupiter-Aggregator-Apr-2024-OffsideLabs.pdf)
+<summary><img src="audit/assets/logos/Jupiter.svg" alt="Jupiter" height="40" style="vertical-align:middle;margin-right:8px;"><strong>Jupiter</strong></summary>
 
-#### Perpetuals
-- [Offside Labs: May 2025](audit/clients/Jupiter/Jupiter/Perpetuals/Jupiter-PerpetualsExchange-May-2025-OffsideLabs.pdf)
+- [Aggregator — Apr 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-Aggregator-Apr-2024-OffsideLabs.pdf)
+- [Aggregator V6 — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-AggregatorV6-Oct-2025-OffsideLabs.pdf)
+- [Lend — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-Lend-Oct-2025-OffsideLabs.pdf)
+- [Limit Order V2 — Apr 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-LimitOrderV2-Apr-2024-OffsideLabs.pdf)
+- [Perpetuals — Feb 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-Perpetuals-Feb-2024-OffsideLabs.pdf)
+- [Perpetuals Exchange — May 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-PerpetualsExchange-May-2025-OffsideLabs.pdf)
+- [RFQ — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Jupiter-RFQ-Nov-2024-OffsideLabs.pdf)
+- [Liquidity Lending — Aug 2025](https://github.com/OffsideLabs/reports/blob/public/audits/JupiterLend-LiquidityLending-Aug-2025-OffsideLabs.pdf)
+- [Vaults — Aug 2025](https://github.com/OffsideLabs/reports/blob/public/audits/JupiterLend-Vaults-Aug-2025-OffsideLabs.pdf)
+- [Jupiter DAO — Mar 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Raccoons-JupiterDAO-Mar-2024-OffsideLabs.pdf)
 
-#### Swap
-- [Offside Labs: Oct 2025](audit/clients/Jupiter/Jupiter/Swap/) <!-- 示例目录 -->
-- [Offside Labs: Apr 2024](audit/clients/Jupiter/Jupiter/Swap/)
-- [Sec3: v3](audit/clients/Jupiter/Jupiter/Swap/)
 </details>
 
-<a id="kamino"></a>
 <details id="kamino">
-<summary><strong>Kamino</strong></summary>
 
-#### Lending
-- [Offside Labs: Oct 2025](audit/clients/Kamino/Lending/2025/Kamino-Lending-2025-10-OffsideLabs.pdf)
-- [OtterSec: Aug 2025](audit/clients/Kamino/Lending/2025/Kamino-Lending-2025-08-OtterSec.pdf)
+<summary><img src="audit/assets/logos/Kamino.png" alt="Kamino" height="40" style="vertical-align:middle;margin-right:8px;"><strong>Kamino</strong></summary>
+
+- [Farms — Dec 2023](https://github.com/OffsideLabs/reports/blob/public/audits/Kamino-Farms-Dec-2023-OffsideLabs.pdf)
+- [LIMO — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Kamino-LIMO-Nov-2024-OffsideLabs.pdf)
+- [Scope — Dec 2023](https://github.com/OffsideLabs/reports/blob/public/audits/Kamino-Scope-Dec-2023-OffsideLabs.pdf)
+- [Unstaking Pool — Aug 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Kamino-UnstakingPool-Aug-2025-OffsideLabs.pdf)
+- [Vault — April 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Kamino-Vault-April-2025-OffsideLabs.pdf)
+
 </details>
 
-<details id="mango">
-<summary><strong>Mango</strong></summary>
 
-#### Perpetuals
-- [Offside Labs: Jul 2025](audit/clients/Mango/Perpetuals/2025/Mango-Perpetuals-2025-07-OffsideLabs.pdf)
-
-#### Margin
-- [Trail of Bits: Nov 2024](audit/clients/Mango/Margin/2024/Mango-Margin-2024-11-ToB.pdf)
-</details>
-
-<a id="marinade"></a>
-<details id="marinade">
-<summary><strong>Marinade</strong></summary>
-
-#### Liquid Staking
-- [Offside Labs: Dec 2024](audit/clients/Marinade/LiquidStaking/2024/Marinade-LiquidStaking-2024-12-OffsideLabs.pdf)
-- [OtterSec: Jun 2024](audit/clients/Marinade/LiquidStaking/2024/Marinade-LiquidStaking-2024-06-OtterSec.pdf)
-</details>
-
-<details id="marginfi">
-<summary><strong>Marginfi</strong></summary>
-
-#### Lending
-- [Offside Labs: Feb 2025](audit/clients/Marginfi/Lending/2025/Marginfi-Lending-2025-02-OffsideLabs.pdf)
-</details>
-
-<a id="meteora"></a>
 <details id="meteora">
-<summary><strong>Meteora</strong></summary>
 
-#### Dynamic Vault
-- [Offside Labs: Oct 2025](audit/Meteora-DynamicBondingCurve0.1.7-Oct-2025-OffsideLabs.pdf)
+<summary><img src="audit/assets/logos/Meteora.png" alt="Meteora" height="40" style="vertical-align:middle;margin-right:8px;"><strong>Meteora</strong></summary>
 
-#### Dynamic Bonding Curve
-- [Offside Labs: v0.1.6 (Sep 2025)](audit/clients/Meteora/Dynamic%20Bonding%20Curve/2025/Meteora-DBC-2025-09-OffsideLabs.pdf)
+- [Alpha Vault — May 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-AlphaVault-May-2024-OffsideLabs.pdf)
+- [Alpha Vault 0.3.2 — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-AlphaVault0.3.2-Nov-2024-OffsideLabs.pdf)
+- [Alpha Vault 0.4.0 — April 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-AlphaVault0.4.0-April-2025-OffsideLabs.pdf)
+- [DAMM v2 0.1.5 — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DAMMv2-0.1.5-Oct-2025-OffsideLabs.pdf)
+- [DAMM v2 — Jun 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DAMMv2-Jun-2025-OffsideLabs.pdf)
+- [DLMM — Jan 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DLMM-Jan-2024-OffsideLabs.pdf)
+- [DLMM 0.10.0 — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DLMM0.10.0-Oct-2025-OffsideLabs.pdf)
+- [DLMM 0.8.2 — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DLMM0.8.2-Nov-2024-OffsideLabs.pdf)
+- [DLMM Token 2022 — Mar 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DLMMToken2022-Mar-2025-OffsideLabs.pdf)
+- [Dynamic AMM — Sep 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicAMM-Sep-2024-OffsideLabs.pdf)
+- [Dynamic AMM 0.5.2 — Nov 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicAMM0.5.2-Nov-2024-OffsideLabs.pdf)
+- [Dynamic Bonding Curve — April 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicBondingCurve-April-2025-OffsideLabs.pdf)
+- [Dynamic Bonding Curve 0.1.6 — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicBondingCurve0.1.6-Oct-2025-OffsideLabs.pdf)
+- [Dynamic Bonding Curve 0.1.7 — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicBondingCurve0.1.7-Oct-2025-OffsideLabs.pdf)
+- [Dynamic Vault — Nov 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicVault-Nov-2025-OffsideLabs.pdf)
+- [Dynamic Vault — Sep 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-DynamicVault-Sep-2024-OffsideLabs.pdf)
+- [Liquidity Distributor — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-LiquidityDistributor-Oct-2025-OffsideLabs.pdf)
+- [Presale — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-Presale-Oct-2025-OffsideLabs.pdf)
+- [Presale 0.1.1 — Nov 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-Presale0.1.1-Nov-2025-OffsideLabs.pdf)
+- [Stake For Fee — Oct 2024](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-StakeForFee-Oct-2024-OffsideLabs.pdf)
+- [ZAP — Oct 2025](https://github.com/OffsideLabs/reports/blob/public/audits/Meteora-ZAP-Oct-2025-OffsideLabs.pdf)
+
 </details>
 
-<details id="orca">
-<summary><strong>Orca</strong></summary>
-
-#### AMM
-- [Offside Labs: May 2024](audit/clients/Orca/AMM/2024/Orca-AMM-2024-05-OffsideLabs.pdf)
-</details>
-
-<a id="raydium"></a>
-<details id="raydium">
-<summary><strong>Raydium</strong></summary>
-
-#### AMM
-- [Offside Labs: Apr 2025](audit/clients/Raydium/AMM/2025/Raydium-AMM-2025-04-OffsideLabs.pdf)
-- [Sec3: v2](audit/clients/Raydium/AMM/2024/Raydium-AMM-2024-02-Sec3.pdf)
-</details>
-
-<details id="solend">
-<summary><strong>Solend</strong></summary>
-
-#### Lending
-- [Offside Labs: Jan 2024](audit/clients/Solend/Lending/2024/Solend-Lending-2024-01-OffsideLabs.pdf)
-</details>
-
-## Using Our Reports
-
-These reports are provided for informational purposes to aid in the understanding and improvement of blockchain security. If you reference our reports in your work, please ensure to cite them appropriately.
-
-## Note
-
-This repository is currently under construction. More reports will be added as they become available. Keep an eye on this space for updates.
-
-## Contact Us
-
-For more information about our services or to inquire about a specific audit, please fill out our inquiry form available at [offside.io](https://offside.io/). We look forward to assisting you with your security needs.
-
-Offside Labs | [https://offside.io/](https://offside.io/)
+[See all audits →](clients/)
