@@ -12,6 +12,30 @@ This repository contains security audit reports conducted by our team. These rep
 
 ## Report Directory
 
+### Featured Clients
+
+<div class="client-grid">
+  <a href="#jupiter" class="client-card">
+    <img src="docs/assets/logos/jupiter.svg" alt="Jupiter logo" />
+    <span>Jupiter <small>(2)</small></span>
+  </a>
+  <a href="#meteora" class="client-card">
+    <img src="docs/assets/logos/meteora.svg" alt="Meteora logo" />
+    <span>Meteora <small>(1)</small></span>
+  </a>
+  <a href="#kamino" class="client-card">
+    <img src="docs/assets/logos/kamino.svg" alt="Kamino logo" />
+    <span>Kamino <small>(0)</small></span>
+  </a>
+  <a href="#jito" class="client-card">
+    <img src="docs/assets/logos/jito.svg" alt="Jito logo" />
+    <span>Jito <small>(0)</small></span>
+  </a>
+  <!-- Add logo files under audit/docs/assets/logos/ if using MkDocs site -->
+</div>
+
+[See all audits →](audit/clients/)
+
 ### Clients Index
 - [Drift](#drift)
 - [Jupiter](#jupiter)
@@ -133,4 +157,3 @@ This repository is currently under construction. More reports will be added as t
 For more information about our services or to inquire about a specific audit, please fill out our inquiry form available at [offside.io](https://offside.io/). We look forward to assisting you with your security needs.
 
 Offside Labs | [https://offside.io/](https://offside.io/)
-

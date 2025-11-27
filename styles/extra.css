@@ -20,16 +20,55 @@
 #catalog a { text-decoration: none; }
 #catalog a:hover { text-decoration: underline; }
 
-.client-grid {
+/* Featured clients grid on homepage */
+.featured-clients {
   display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 8px 0 16px;
+}
+.featured-client {
+  display: flex;
+  align-items: center;
   gap: 12px;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  padding: 12px 14px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform .08s ease, box-shadow .08s ease, border-color .08s ease;
 }
-.client-card {
-  display: flex; align-items: center; gap: 8px;
-  padding: 10px 12px; border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 8px; text-decoration: none;
+.featured-client:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--md-shadow-z2);
+  border-color: var(--md-accent-fg-color);
 }
-.client-card img { height: 40px; width: auto; }
-.client-card span { font-weight: 600; }
-.client-card small { color: var(--md-default-fg-color--light); }
+.featured-client__logo {
+  height: 40px; /* 36–48px 区间，取 40px */
+  width: auto;
+  display: block;
+}
+.featured-client__meta {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.featured-client__name {
+  font-weight: 600;
+}
+.featured-client__count {
+  font-size: .85em;
+  color: var(--md-default-fg-color--light);
+}
+.see-all-link {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+.see-all-link:hover {
+  text-decoration: underline;
+}
