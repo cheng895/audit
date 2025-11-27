@@ -18,25 +18,33 @@ This repository contains security audit reports conducted by our team. These rep
   <tr>
     <td align="center">
       <a href="#meteora" title="Meteora">
-        <img src="assets/logos/meteora.png" alt="Meteora logo" height="40"><br/>
+        <div style="height:56px; width:100%; display:flex; align-items:center; justify-content:center;">
+          <img src="assets/logos/meteora.png" alt="Meteora logo" style="max-height:44px; width:auto;">
+        </div>
         <sub>Meteora (1)</sub>
       </a>
     </td>
     <td align="center">
       <a href="#jupiter" title="Jupiter">
-        <img src="assets/logos/jupiter.png" alt="Jupiter logo" height="40"><br/>
+        <div style="height:56px; width:100%; display:flex; align-items:center; justify-content:center;">
+          <img src="assets/logos/jupiter.svg" alt="Jupiter logo" style="max-height:44px; width:auto;">
+        </div>
         <sub>Jupiter (2)</sub>
       </a>
     </td>
     <td align="center">
       <a href="#kamino" title="Kamino">
-        <img src="assets/logos/kamino.png" alt="Kamino logo" height="40"><br/>
+        <div style="height:56px; width:100%; display:flex; align-items:center; justify-content:center;">
+          <img src="assets/logos/kamino.png" alt="Kamino logo" style="max-height:44px; width:auto;">
+        </div>
         <sub>Kamino (0)</sub>
       </a>
     </td>
     <td align="center">
       <a href="#jito" title="Jito">
-        <img src="assets/logos/jito.png" alt="Jito logo" height="40"><br/>
+        <div style="height:56px; width:100%; display:flex; align-items:center; justify-content:center;">
+          <img src="assets/logos/jito.png" alt="Jito logo" style="max-height:44px; width:auto;">
+        </div>
         <sub>Jito (0)</sub>
       </a>
     </td>
