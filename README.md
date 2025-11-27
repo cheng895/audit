@@ -14,58 +14,27 @@ This repository contains security audit reports conducted by our team. These rep
 
 ### Featured Clients
 
-<table border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;border-spacing:24px 12px;border:0;width:100%;">
-  <tr>
-    <td align="center" width="220" valign="middle" style="border:0;vertical-align:middle;">
-      <a href="#meteora" title="Meteora">
-        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border:0;border-collapse:separate;border-spacing:0;">
-          <tr><td align="center" height="64" style="border:0;height:64px;">
-            <img src="assets/logos/meteora.png" alt="Meteora logo" height="44" />
-          </td></tr>
-          <tr><td align="center" style="border:0;">
-            <strong>Meteora</strong> <small>(1)</small>
-          </td></tr>
-        </table>
-      </a>
-    </td>
-    <td align="center" width="220" valign="middle" style="border:0;vertical-align:middle;">
-      <a href="#jupiter" title="Jupiter">
-        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border:0;border-collapse:separate;border-spacing:0;">
-          <tr><td align="center" height="64" style="border:0;height:64px;">
-            <img src="assets/logos/jupiter.svg" alt="Jupiter logo" height="44" />
-          </td></tr>
-          <tr><td align="center" style="border:0;">
-            <strong>Jupiter</strong> <small>(2)</small>
-          </td></tr>
-        </table>
-      </a>
-    </td>
-    <td align="center" width="220" valign="middle" style="border:0;vertical-align:middle;">
-      <a href="#kamino" title="Kamino">
-        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border:0;border-collapse:separate;border-spacing:0;">
-          <tr><td align="center" height="64" style="border:0;height:64px;">
-            <img src="assets/logos/kamino.png" alt="Kamino logo" height="44" />
-          </td></tr>
-          <tr><td align="center" style="border:0;">
-            <strong>Kamino</strong> <small>(0)</small>
-          </td></tr>
-        </table>
-      </a>
-    </td>
-    <td align="center" width="220" valign="middle" style="border:0;vertical-align:middle;">
-      <a href="#jito" title="Jito">
-        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border:0;border-collapse:separate;border-spacing:0;">
-          <tr><td align="center" height="64" style="border:0;height:64px;">
-            <img src="assets/logos/jito.png" alt="Jito logo" height="44" />
-          </td></tr>
-          <tr><td align="center" style="border:0;">
-            <strong>Jito</strong> <small>(0)</small>
-          </td></tr>
-        </table>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="#meteora" title="Meteora" style="text-decoration:none;">
+    <img src="assets/logos/meteora.png" alt="Meteora logo" height="44"><br/>
+    <strong>Meteora</strong> <small>(1)</small>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#jupiter" title="Jupiter" style="text-decoration:none;">
+    <img src="assets/logos/jupiter.svg" alt="Jupiter logo" height="44"><br/>
+    <strong>Jupiter</strong> <small>(2)</small>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#kamino" title="Kamino" style="text-decoration:none;">
+    <img src="assets/logos/kamino.png" alt="Kamino logo" height="44"><br/>
+    <strong>Kamino</strong> <small>(0)</small>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#jito" title="Jito" style="text-decoration:none;">
+    <img src="assets/logos/jito.png" alt="Jito logo" height="44"><br/>
+    <strong>Jito</strong> <small>(0)</small>
+  </a>
+</p>
 
 <p align="right"><a href="#all-audits">See all audits →</a></p>
 
