@@ -18,22 +18,26 @@ This repository contains security audit reports conducted by our team. These rep
   <tr>
     <td align="center">
       <a href="#meteora" title="Meteora">
-        <img alt="Meteora reports" src="https://img.shields.io/badge/Meteora-1%20reports-0B1221?style=for-the-badge&labelColor=111827&color=0ea5e9" />
+        <img src="assets/logos/meteora.png" alt="Meteora logo" height="40"><br/>
+        <sub>Meteora (1)</sub>
       </a>
     </td>
     <td align="center">
       <a href="#jupiter" title="Jupiter">
-        <img alt="Jupiter reports" src="https://img.shields.io/badge/Jupiter-2%20reports-0B1221?style=for-the-badge&labelColor=111827&color=f59e0b" />
+        <img src="assets/logos/jupiter.png" alt="Jupiter logo" height="40"><br/>
+        <sub>Jupiter (2)</sub>
       </a>
     </td>
     <td align="center">
       <a href="#kamino" title="Kamino">
-        <img alt="Kamino reports" src="https://img.shields.io/badge/Kamino-0%20reports-0B1221?style=for-the-badge&labelColor=111827&color=10b981" />
+        <img src="assets/logos/kamino.png" alt="Kamino logo" height="40"><br/>
+        <sub>Kamino (0)</sub>
       </a>
     </td>
     <td align="center">
       <a href="#jito" title="Jito">
-        <img alt="Jito reports" src="https://img.shields.io/badge/Jito-0%20reports-0B1221?style=for-the-badge&labelColor=111827&color=8b5cf6" />
+        <img src="assets/logos/jito.png" alt="Jito logo" height="40"><br/>
+        <sub>Jito (0)</sub>
       </a>
     </td>
   </tr>
