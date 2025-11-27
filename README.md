@@ -14,30 +14,30 @@ This repository contains security audit reports conducted by our team. These rep
 
 ### Featured Clients
 
-<table>
+<table border="0" cellspacing="0" cellpadding="10">
   <tr>
-    <td align="center">
+    <td align="center" width="180" valign="middle">
       <a href="#meteora" title="Meteora">
         <img src="assets/logos/meteora.png" alt="Meteora logo" height="44"><br/>
-        <sub>Meteora (1)</sub>
+        <strong>Meteora</strong> <small>(1)</small>
       </a>
     </td>
-    <td align="center">
+    <td align="center" width="180" valign="middle">
       <a href="#jupiter" title="Jupiter">
         <img src="assets/logos/jupiter.svg" alt="Jupiter logo" height="44"><br/>
-        <sub>Jupiter (2)</sub>
+        <strong>Jupiter</strong> <small>(2)</small>
       </a>
     </td>
-    <td align="center">
+    <td align="center" width="180" valign="middle">
       <a href="#kamino" title="Kamino">
         <img src="assets/logos/kamino.png" alt="Kamino logo" height="44"><br/>
-        <sub>Kamino (0)</sub>
+        <strong>Kamino</strong> <small>(0)</small>
       </a>
     </td>
-    <td align="center">
+    <td align="center" width="180" valign="middle">
       <a href="#jito" title="Jito">
         <img src="assets/logos/jito.png" alt="Jito logo" height="44"><br/>
-        <sub>Jito (0)</sub>
+        <strong>Jito</strong> <small>(0)</small>
       </a>
     </td>
   </tr>
