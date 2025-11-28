@@ -3,8 +3,8 @@
 <td align="center" width="25%" style="padding:12px;">
 <div style="border:1px solid #e5e7eb;border-radius:16px;padding:36px 24px;height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;">
 <a href="#jito" style="text-decoration:none;">
-  <div style="width:56px;height:56px;margin:0 auto;display:flex;align-items:center;justify-content:center;overflow:hidden;">
-    <img src="assets/logos/jito.svg" alt="Jito" width="56" height="56" style="max-width:100%;max-height:100%;display:block;object-fit:contain;">
+  <div style="width:56px;height:56px;margin:0 auto;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:8px;">
+    <img src="assets/logos/jito.jpg" alt="Jito" width="56" height="56" style="max-width:100%;max-height:100%;display:block;object-fit:contain;">
   </div>
 </a>
 <strong style="font-size:22px;color:#111827;">Jito</strong>
