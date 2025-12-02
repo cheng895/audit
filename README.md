@@ -77,4 +77,4 @@
 
 </details>
 
-<p><a href="https://github.com/cheng895/audit/tree/main/docs">See all audits →</a></p>
+<p><a href="https://github.com/OffsideLabs/reports/tree/public/audits">See all audits →</a></p>
